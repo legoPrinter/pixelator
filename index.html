@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <input type="text" id="url" class="class-1" placeholder="enter image url">
+    <button id="submit" class="class-1" onclick="getImage()">done!</button>
+    <canvas id="canvas" width="460" height="210"></canvas>
+    <p id="num">pixelate effect</p>
+    <div class="button" onclick="effect(1);getImage()">+</div>
+    <div class="button" onclick="effect(-1);getImage()">-</div>
+    <a onclick="open_image()">load in a new window</a>
+    <script src="app.js"></script>
+</body>
+</html>
